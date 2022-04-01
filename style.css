@@ -60,6 +60,7 @@ footer {
 .skills li {
     text-align: center;
     width:30%;
+    margin: 2%;
 }
 
 .card-img-top {
