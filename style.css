@@ -1,0 +1,84 @@
+body {
+    font-family: 'Montserrat';
+    text-underline-offset: 1em;
+}
+ul {
+    list-style-type: none;
+    display:inline-block; 
+    vertical-align:middle;
+}
+header {
+    height:100vh;
+    align-items: center;
+    padding: 20%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section {
+    color:white;
+    padding: 5% 10%;
+    line-height: 2rem;
+}
+h2 {
+    margin-bottom: 2rem;
+}
+h3 {
+    display:inline-block; 
+    vertical-align:top; 
+    width:10%;
+}
+footer {
+    padding: 1% 10%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color:white;
+}
+
+.card {
+    margin:2% 0;
+    width:53vh;
+    box-shadow: 5px 5px 5px black; 
+    display: inline-block;
+}
+.links a {
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+    font-size:1.5rem;
+    line-height: 3rem;
+}
+
+.links a:hover {
+    color:bisque;
+}
+.skills {
+    display:flex; 
+    flex-wrap: wrap;
+}
+
+.skills li {
+    text-align: center;
+    width:30%;
+}
+
+.card-img-top {
+    height:300px;
+    object-fit:cover;
+}
+
+.btn-primary {
+    background-color: #E57E77;
+    border: #E57E77;
+}
+.btn-primary:hover {
+    background-color: #fa5145;
+    border: #fa5145;
+}
+
+.portfolio, .interests {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
