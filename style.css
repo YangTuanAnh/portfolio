@@ -10,6 +10,7 @@ ul {
 header {
     height:100vh;
     align-items: center;
+    text-align: center;
     padding:20%;
     background-attachment: fixed;
     background-position: center;
@@ -18,7 +19,8 @@ header {
     font-size:150%;
 }
 h1 {
-    font-weight: bold;
+    font-family: 'Anton';
+    font-size:300%;
 }
 section {
     color:white;
@@ -26,6 +28,7 @@ section {
     line-height: 2rem;
 }
 h2 {
+    font-family: 'Anton';
     margin-bottom: 2rem;
 }
 h3 {
@@ -49,7 +52,7 @@ footer {
     text-decoration: none;
     color:white;
     font-weight: 500;
-    font-size:1.5rem;
+    font-size:1.25rem;
     line-height: 3rem;
 }
 
