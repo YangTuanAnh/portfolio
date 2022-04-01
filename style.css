@@ -10,11 +10,15 @@ ul {
 header {
     height:100vh;
     align-items: center;
-    padding: 20%;
+    padding:20%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-size:150%;
+}
+h1 {
+    font-weight: bold;
 }
 section {
     color:white;
@@ -82,4 +86,7 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.card {
+    box-shadow: 5px 5px 10px rgb(44, 0, 44);
 }
